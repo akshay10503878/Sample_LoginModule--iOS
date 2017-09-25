@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		304B3D381F379B5C0056F613 /* LoginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 304B3D371F379B5C0056F613 /* LoginCell.m */; };
+		30D6D0BC1F3643F3004ADD52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D0BB1F3643F3004ADD52 /* main.m */; };
+		30D6D0BF1F3643F3004ADD52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D0BE1F3643F3004ADD52 /* AppDelegate.m */; };
+		30D6D0C21F3643F3004ADD52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D0C11F3643F3004ADD52 /* ViewController.m */; };
+		30D6D0C51F3643F3004ADD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D6D0C31F3643F3004ADD52 /* Main.storyboard */; };
+		30D6D0C81F3643F3004ADD52 /* LoginModule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D0C61F3643F3004ADD52 /* LoginModule.xcdatamodeld */; };
+		30D6D0CA1F3643F3004ADD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D6D0C91F3643F3004ADD52 /* Assets.xcassets */; };
+		30D6D0CD1F3643F3004ADD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D6D0CB1F3643F3004ADD52 /* LaunchScreen.storyboard */; };
+		30D6D0D81F3643F3004ADD52 /* LoginModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D0D71F3643F3004ADD52 /* LoginModuleTests.m */; };
+		30D6D0E31F3643F3004ADD52 /* LognModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D0E21F3643F3004ADD52 /* LognModuleUITests.m */; };
+		30D6D0F21F373762004ADD52 /* PageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D0F11F373762004ADD52 /* PageCell.m */; };
+		30D6D0F81F375302004ADD52 /* PageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D0F71F375302004ADD52 /* PageInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30D6D0D41F3643F3004ADD52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D6D0AF1F3643F3004ADD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D6D0B61F3643F3004ADD52;
+			remoteInfo = Auidable;
+		};
+		30D6D0DF1F3643F3004ADD52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D6D0AF1F3643F3004ADD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D6D0B61F3643F3004ADD52;
+			remoteInfo = Auidable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		304B3D361F379B5C0056F613 /* LoginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCell.h; sourceTree = "<group>"; };
+		304B3D371F379B5C0056F613 /* LoginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCell.m; sourceTree = "<group>"; };
+		30D6D0B71F3643F3004ADD52 /* LoginModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D6D0BB1F3643F3004ADD52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30D6D0BD1F3643F3004ADD52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30D6D0BE1F3643F3004ADD52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30D6D0C01F3643F3004ADD52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30D6D0C11F3643F3004ADD52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30D6D0C41F3643F3004ADD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30D6D0C71F3643F3004ADD52 /* LoginModule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginModule.xcdatamodel; sourceTree = "<group>"; };
+		30D6D0C91F3643F3004ADD52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D6D0CC1F3643F3004ADD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30D6D0CE1F3643F3004ADD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D6D0D31F3643F3004ADD52 /* LoginModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D6D0D71F3643F3004ADD52 /* LoginModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModuleTests.m; sourceTree = "<group>"; };
+		30D6D0D91F3643F3004ADD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D6D0DE1F3643F3004ADD52 /* LoginModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D6D0E21F3643F3004ADD52 /* LognModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LognModuleUITests.m; sourceTree = "<group>"; };
+		30D6D0E41F3643F3004ADD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D6D0F01F373762004ADD52 /* PageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCell.h; sourceTree = "<group>"; };
+		30D6D0F11F373762004ADD52 /* PageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCell.m; sourceTree = "<group>"; };
+		30D6D0F61F375302004ADD52 /* PageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageInfo.h; sourceTree = "<group>"; };
+		30D6D0F71F375302004ADD52 /* PageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D6D0B41F3643F3004ADD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6D0D01F3643F3004ADD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6D0DB1F3643F3004ADD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D6D0AE1F3643F3004ADD52 = {
+			isa = PBXGroup;
+			children = (
+				30D6D0B91F3643F3004ADD52 /* LoginModule */,
+				30D6D0D61F3643F3004ADD52 /* LoginModuleTests */,
+				30D6D0E11F3643F3004ADD52 /* LoginModuleUITests */,
+				30D6D0B81F3643F3004ADD52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30D6D0B81F3643F3004ADD52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D6D0B71F3643F3004ADD52 /* LoginModule.app */,
+				30D6D0D31F3643F3004ADD52 /* LoginModuleTests.xctest */,
+				30D6D0DE1F3643F3004ADD52 /* LoginModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D6D0B91F3643F3004ADD52 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				30D6D0BA1F3643F3004ADD52 /* Supporting Files */,
+				30D6D0BD1F3643F3004ADD52 /* AppDelegate.h */,
+				30D6D0BE1F3643F3004ADD52 /* AppDelegate.m */,
+				30D6D0C91F3643F3004ADD52 /* Assets.xcassets */,
+				30D6D0CE1F3643F3004ADD52 /* Info.plist */,
+				30D6D0CB1F3643F3004ADD52 /* LaunchScreen.storyboard */,
+				304B3D361F379B5C0056F613 /* LoginCell.h */,
+				304B3D371F379B5C0056F613 /* LoginCell.m */,
+				30D6D0C61F3643F3004ADD52 /* LoginModule.xcdatamodeld */,
+				30D6D0C31F3643F3004ADD52 /* Main.storyboard */,
+				30D6D0F01F373762004ADD52 /* PageCell.h */,
+				30D6D0F11F373762004ADD52 /* PageCell.m */,
+				30D6D0F61F375302004ADD52 /* PageInfo.h */,
+				30D6D0F71F375302004ADD52 /* PageInfo.m */,
+				30D6D0C01F3643F3004ADD52 /* ViewController.h */,
+				30D6D0C11F3643F3004ADD52 /* ViewController.m */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		30D6D0BA1F3643F3004ADD52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30D6D0BB1F3643F3004ADD52 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30D6D0D61F3643F3004ADD52 /* LoginModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				30D6D0D91F3643F3004ADD52 /* Info.plist */,
+				30D6D0D71F3643F3004ADD52 /* LoginModuleTests.m */,
+			);
+			path = LoginModuleTests;
+			sourceTree = "<group>";
+		};
+		30D6D0E11F3643F3004ADD52 /* LoginModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30D6D0E41F3643F3004ADD52 /* Info.plist */,
+				30D6D0E21F3643F3004ADD52 /* LognModuleUITests.m */,
+			);
+			path = LoginModuleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D6D0B61F3643F3004ADD52 /* LoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D6D0E71F3643F3004ADD52 /* Build configuration list for PBXNativeTarget "LoginModule" */;
+			buildPhases = (
+				30D6D0B31F3643F3004ADD52 /* Sources */,
+				30D6D0B41F3643F3004ADD52 /* Frameworks */,
+				30D6D0B51F3643F3004ADD52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginModule;
+			productName = Auidable;
+			productReference = 30D6D0B71F3643F3004ADD52 /* LoginModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30D6D0D21F3643F3004ADD52 /* LoginModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D6D0EA1F3643F3004ADD52 /* Build configuration list for PBXNativeTarget "LoginModuleTests" */;
+			buildPhases = (
+				30D6D0CF1F3643F3004ADD52 /* Sources */,
+				30D6D0D01F3643F3004ADD52 /* Frameworks */,
+				30D6D0D11F3643F3004ADD52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D6D0D51F3643F3004ADD52 /* PBXTargetDependency */,
+			);
+			name = LoginModuleTests;
+			productName = AuidableTests;
+			productReference = 30D6D0D31F3643F3004ADD52 /* LoginModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30D6D0DD1F3643F3004ADD52 /* LoginModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D6D0ED1F3643F3004ADD52 /* Build configuration list for PBXNativeTarget "LoginModuleUITests" */;
+			buildPhases = (
+				30D6D0DA1F3643F3004ADD52 /* Sources */,
+				30D6D0DB1F3643F3004ADD52 /* Frameworks */,
+				30D6D0DC1F3643F3004ADD52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D6D0E01F3643F3004ADD52 /* PBXTargetDependency */,
+			);
+			name = LoginModuleUITests;
+			productName = AuidableUITests;
+			productReference = 30D6D0DE1F3643F3004ADD52 /* LoginModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D6D0AF1F3643F3004ADD52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "akshay bansal";
+				TargetAttributes = {
+					30D6D0B61F3643F3004ADD52 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MH3Z54P28V;
+						ProvisioningStyle = Automatic;
+					};
+					30D6D0D21F3643F3004ADD52 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MH3Z54P28V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30D6D0B61F3643F3004ADD52;
+					};
+					30D6D0DD1F3643F3004ADD52 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MH3Z54P28V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30D6D0B61F3643F3004ADD52;
+					};
+				};
+			};
+			buildConfigurationList = 30D6D0B21F3643F3004ADD52 /* Build configuration list for PBXProject "LoginModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D6D0AE1F3643F3004ADD52;
+			productRefGroup = 30D6D0B81F3643F3004ADD52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D6D0B61F3643F3004ADD52 /* LoginModule */,
+				30D6D0D21F3643F3004ADD52 /* LoginModuleTests */,
+				30D6D0DD1F3643F3004ADD52 /* LoginModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D6D0B51F3643F3004ADD52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D6D0CD1F3643F3004ADD52 /* LaunchScreen.storyboard in Resources */,
+				30D6D0CA1F3643F3004ADD52 /* Assets.xcassets in Resources */,
+				30D6D0C51F3643F3004ADD52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6D0D11F3643F3004ADD52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6D0DC1F3643F3004ADD52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D6D0B31F3643F3004ADD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D6D0C81F3643F3004ADD52 /* LoginModule.xcdatamodeld in Sources */,
+				30D6D0C21F3643F3004ADD52 /* ViewController.m in Sources */,
+				30D6D0BF1F3643F3004ADD52 /* AppDelegate.m in Sources */,
+				304B3D381F379B5C0056F613 /* LoginCell.m in Sources */,
+				30D6D0BC1F3643F3004ADD52 /* main.m in Sources */,
+				30D6D0F81F375302004ADD52 /* PageInfo.m in Sources */,
+				30D6D0F21F373762004ADD52 /* PageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6D0CF1F3643F3004ADD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D6D0D81F3643F3004ADD52 /* LoginModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D6D0DA1F3643F3004ADD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D6D0E31F3643F3004ADD52 /* LognModuleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30D6D0D51F3643F3004ADD52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D6D0B61F3643F3004ADD52 /* LoginModule */;
+			targetProxy = 30D6D0D41F3643F3004ADD52 /* PBXContainerItemProxy */;
+		};
+		30D6D0E01F3643F3004ADD52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D6D0B61F3643F3004ADD52 /* LoginModule */;
+			targetProxy = 30D6D0DF1F3643F3004ADD52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30D6D0C31F3643F3004ADD52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D6D0C41F3643F3004ADD52 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		30D6D0CB1F3643F3004ADD52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D6D0CC1F3643F3004ADD52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D6D0E51F3643F3004ADD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30D6D0E61F3643F3004ADD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D6D0E81F3643F3004ADD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = LoginModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.Auidable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30D6D0E91F3643F3004ADD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = LoginModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.Auidable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30D6D0EB1F3643F3004ADD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = LoginModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.AuidableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginModule.app/LoginModule";
+			};
+			name = Debug;
+		};
+		30D6D0EC1F3643F3004ADD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = LoginModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.AuidableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginModule.app/LoginModule";
+			};
+			name = Release;
+		};
+		30D6D0EE1F3643F3004ADD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = LoginModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.AuidableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Auidable;
+			};
+			name = Debug;
+		};
+		30D6D0EF1F3643F3004ADD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = LoginModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.AuidableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Auidable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D6D0B21F3643F3004ADD52 /* Build configuration list for PBXProject "LoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6D0E51F3643F3004ADD52 /* Debug */,
+				30D6D0E61F3643F3004ADD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D6D0E71F3643F3004ADD52 /* Build configuration list for PBXNativeTarget "LoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6D0E81F3643F3004ADD52 /* Debug */,
+				30D6D0E91F3643F3004ADD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D6D0EA1F3643F3004ADD52 /* Build configuration list for PBXNativeTarget "LoginModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6D0EB1F3643F3004ADD52 /* Debug */,
+				30D6D0EC1F3643F3004ADD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D6D0ED1F3643F3004ADD52 /* Build configuration list for PBXNativeTarget "LoginModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D6D0EE1F3643F3004ADD52 /* Debug */,
+				30D6D0EF1F3643F3004ADD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30D6D0C61F3643F3004ADD52 /* LoginModule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30D6D0C71F3643F3004ADD52 /* LoginModule.xcdatamodel */,
+			);
+			currentVersion = 30D6D0C71F3643F3004ADD52 /* LoginModule.xcdatamodel */;
+			path = LoginModule.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30D6D0AF1F3643F3004ADD52 /* Project object */;
+}
