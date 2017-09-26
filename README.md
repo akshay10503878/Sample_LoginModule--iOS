@@ -11,7 +11,7 @@ Paging Style Login Module using ColllectionView
         
  4) Screenshots
 
-![Alt text](/Screenshots/FirstScreen.png?raw=true  "FirstScreen")   
-![Alt text](/Screenshots/SecondScreen.png?raw=true  "SecondScreen")   
-![Alt text](/Screenshots/LoginScreen.png?raw=true  "LoginSCreen")   
+![Alt text](/Screenshots/FirstScreen.png?raw=true  "FirstScreen")  |   ![Alt text](/Screenshots/SecondScreen.png?raw=true  "SecondScreen")  |  ![Alt text](/Screenshots/LoginScreen.png?raw=true  "LoginSCreen")  
+  
+ 
 
